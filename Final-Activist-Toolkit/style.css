@@ -1,0 +1,306 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+.imagehead {
+	background-image: url("assets/4224.webp");
+	height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.header {
+	padding-top: 150px;
+	color: white;
+	font-size: 120px;
+  font-weight: bold;
+  font-family: Arial Black;
+	text-align: center;
+  
+}
+
+body {
+ background-color: white; 
+}
+
+/* STYLE TEXT */
+
+h3 {
+    color: white;
+    font-family: Arial Black;
+	  text-align: center;
+    font-size: 50px;
+ }
+h3 span {
+    color: #a21b13;
+    font-family: Arial Black;
+	  text-align: center;
+    font-size: 50px;
+ }
+
+h2 {
+  color: #a21b13;
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: 58px;
+  padding: 1.5em;
+  border: 15px solid #a21b13;
+}
+
+p {
+  font-family: Georgia, serif;
+  padding-left: 5em;
+  padding-right: 5em;
+  text-indent: 50px;
+  font-size: 25px;
+  text-align: center;
+  line-height:1.4;
+  color: #5c5c5b;
+  
+}
+
+h4 {
+  color: #a21b13;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  padding-right: 1.5em;
+  padding-left: 5em;
+}
+
+
+
+
+/* STYLE GENERATE A FACT KEY FEATURE */
+.genFact {
+  background: #a21b13;;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+    margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: Georgia, serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: Georgia, serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #a21b13;
+
+}
+
+#factBtn {
+  background: white;
+  border-style: none;
+  border-radius: 10px;
+  font-family: Georgia, serif;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight:bold;
+  color: #5c5c5b;
+  font-size: 1em;
+}
+
+/* STYLE PERSONALIZE IT SCRIPT GENERATOR KEY FEATURE  */
+
+.scriptQues {
+  background: #a21b13;
+  border-radius: 10px;
+
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: Georgia, serif;
+  color: white;
+}
+
+h5{
+  font-size:20px; 
+  color:white; 
+  font-family: Georgia, serif;
+  text-allign: center;
+
+}
+
+.scriptItem{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+
+  padding-top: 20px;
+
+
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  width: 60%;
+}
+
+#scriptReturned {
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+
+  color: #a21b13;
+}
+
+#scriptBtn {
+  background: white;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 40%;
+  margin-right: 40%;
+
+  color: #5c5c5b;
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+}
+
+
+
+iframe {
+}
+
+footer {
+  background-color: #a62f3a;
+  padding: 10px;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #a62f3a;
+  overflow: hidden;
+  padding: 1em;
+  
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration:none;
+  color:white;
+  font-size:1.3em;
+  padding: .75em;
+  padding-bottom:2em;
+  
+  color: white;
+
+
+}
+
+li a:hover {
+  background-color: #b5786e
+;
+}
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+.videos {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  margin-right: 10px;
+  float: left;    
+
+}
+
+.slidingim {
+  height: 60vh;
+  display: grid;
+  place-items: center;
+  background-color: #b36e57;
+}
+
+.slider {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: relative;
+  overflow: hidden; /* <===  */
+  border-radius: 15px;
+  
+
+}
+
+.slide {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
+
+
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 18px;
+}
+.btn:active {
+  transform: scale(1.1);
+}
+.btn-prev {
+  top: 45%;
+  left: 2%;
+  font-family: Arial Black;
+  color: #243552;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+  font-family: Arial Black;
+  color: #243552;
+}
